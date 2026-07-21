@@ -94,7 +94,7 @@ export default function Projects() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: false, amount: 0.0 }}
             className="text-center mb-16"
           >
             <p className="text-cyan-400 uppercase tracking-widest">
@@ -118,7 +118,7 @@ export default function Projects() {
                 key={project.title}
                 initial={{ opacity: 0, y: 80 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: false, amount: 0.0 }}
                 transition={{
                   duration: 0.7,
                   delay: index * 0.15,

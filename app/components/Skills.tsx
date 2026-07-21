@@ -156,7 +156,7 @@ export default function Skills() {
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: false, amount: 0.0 }}
             className="mb-20 text-center"
           >
             <p className="uppercase tracking-[0.3em] text-cyan-400">
@@ -184,7 +184,7 @@ export default function Skills() {
                   duration: 0.5,
                   delay: index * 0.05,
                 }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: false, amount: 0.0 }}
                 whileHover={{
                   y: -10,
                   scale: 1.03,
@@ -252,7 +252,7 @@ export default function Skills() {
                         transition={{
                           duration: 1.2,
                         }}
-                        viewport={{once: false, amount: 0.2}}
+                        viewport={{once: false, amount: 0.0}}
                         className="h-full rounded-full bg-gradient-to-r from-cyan-400 to-blue-500"
                       />
 
@@ -272,7 +272,7 @@ export default function Skills() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            viewport={{ once: false, amount: 0.2 }}
+            viewport={{ once: false, amount: 0.0 }}
             className="mt-24"
           >
             <div className="rounded-[32px] border border-cyan-500/20 bg-white/5 backdrop-blur-xl p-10">

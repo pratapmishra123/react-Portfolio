@@ -24,7 +24,7 @@ export default function Reveal({ children }: RevealProps) {
         duration: 0.9,
         ease: "easeOut",
       }}
-      viewport={{ once: false, amount: 0.2 }}
+      viewport={{ once: false, amount: 0.0 }}
     >
       {children}
     </motion.div>
